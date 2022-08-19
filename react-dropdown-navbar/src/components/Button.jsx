@@ -1,0 +1,12 @@
+// import React from 'react'
+import { Link } from 'react-router-dom'
+import './Button.css'
+function Button() {
+  return (
+    <Link to="sugn-up">
+        <button className="btn" type="button">Sign Up</button>
+    </Link>
+  )
+}
+
+export default Button

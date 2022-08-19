@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <h1>Yoo</h1>
-    </>
+    <BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
   );
 }
 
